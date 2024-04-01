@@ -1,0 +1,52 @@
+/* h1 {
+    color: aquamarine;
+} */
+
+.grand-box {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 200px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    float: left;
+    overflow: auto;
+    margin: 0px 10px;
+    padding: 5px;
+    
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: center;
+    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    color: red;
+    border-radius: 5px;
+}
+
+.footer-content {
+    clear: both;
+}
+
+.nav-link {
+    color: gray !important;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+/* Left Menu start */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,tr,td,th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+   
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Departman</th>
+                <th>Maaş</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Mustafa</td>
+                <td>Bilişim</td>
+                <td rowspan="2">5000</td>
+            </tr>
+            
+            <tr>
+                <td>Mustafa</td>
+                <td>Bilişim</td>
+            </tr>
+            
+            <tr>
+                <td>Mustafa</td>
+                <td>Bilişim</td>
+                <td rowspan="2">7000</td>
+            </tr>
+            <tr>
+                <td>Mustafa</td>
+                <td>Bilişim</td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">Test</td>
+                <td>12000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

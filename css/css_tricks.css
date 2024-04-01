@@ -1,0 +1,262 @@
+/* General Settings Start */
+
+html {
+    scrollbar-color: #255b7a #201c29;
+}
+
+body {
+    background-color: #0b0b42;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* General Settings End */
+
+
+/* Nav Links Start */
+
+nav {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+}
+
+.left-side-links {
+    margin-left: 40px;
+}
+
+.right-side-links {
+    margin-right: 40px;
+}
+
+.logo::first-letter{
+    color: red;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: block;
+    float: left;
+}
+
+.nav-links ul li:hover{
+    background-color: rgb(146, 146, 146, .4);
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px;
+
+    transition: all .2s ease-in-out;
+}
+
+.nav-links ul li a:hover {
+    color: rgb(255, 111, 0);
+
+}
+
+.right-side-links {
+    float: right;
+}
+
+/* Nav Links End */
+
+/* Author Header Start */
+
+.wrapper {
+    width: 720px;
+    margin: 40px;
+}
+
+.wrapper ul li {
+    list-style: none;
+    font-size: 22px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.wrapper ul li a {
+    text-decoration: none;
+    color: #ffdfc7;
+}
+
+.slash {
+    color: #ffdfc7;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.author-line {
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.author-line a {
+    text-decoration: none;
+    color: white;
+}
+
+.author-line a:hover {
+    color: rgb(190, 164, 164);
+    text-decoration: underline;
+}
+
+.header-intro p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 45px;
+    font-size: 26px;
+    margin-top: 30px;
+    color: white;
+}
+
+.author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+/* Author Header End */
+
+
+/* Contents Start */
+
+.contents {
+    border-radius: 10px;
+    margin-left: 35px;
+    width: 1450px;
+    height: 1070px;
+    background-color: white;
+}
+
+.table-of-contents-wrapper {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    background-color: #fef6ec;
+    border-radius: 10px;
+    height: 555px;
+    width: 600px;
+    padding-top: 30px;
+    float: left;
+}
+
+.get-poster-wrapper {
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-right: 60px;
+    background-color: #fffcf6;
+    height: 320px;
+    width: 600px;
+    padding-top: 30px;
+    float: left;
+    float: right;
+}
+
+.table-content-list ul li {
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.table-content-list ul li a {
+    color: #3f90bf;
+}
+
+.table-content-list ul li a:hover {
+    color: #54b1e6;
+}
+
+.get-poster-left-side {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.get-poster-right-side {
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 30px;
+}
+
+.download-btn {
+    background-color: #5b6268;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+
+    transition: all .1s ease-in-out;
+}
+
+.download-btn:hover{
+    background-color: #848a90;
+    transform: scale(1.05);
+}
+
+.seperate-content {
+    clear: both;
+}
+
+.seperate-content hr {
+    background: #ff7a18;
+    border: 0;
+    display: block;
+    width: 90%;
+    height: 4px;
+    border-radius: 4px;
+    margin: 80px 40px 30px 60px;
+}
+
+/* Contents End */
+
+
+/* Cookie References Start */
+
+.cookie-references {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    height: 40px;
+    background-color: rgb(255, 68, 0);
+
+    transition: all .3s ease-in-out;
+}
+
+.cookie-references:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: white;
+}
+
+/* Cookie References End */

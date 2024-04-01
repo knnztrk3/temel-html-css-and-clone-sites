@@ -32,6 +32,11 @@ nav {
 
 .navbar-left-side img {
     padding-top: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-left-side img:hover {
+    transform: scale(1.1);
 }
 
 .navbar-center{
@@ -40,8 +45,11 @@ nav {
 
 .navbar-center ul a li {
     font-weight: 400;
+    transition: all .3s ease-in-out;
 }
-
+.navbar-center ul a li:hover{
+    transform: scale(1.1);
+}
 .navbar-center ul a li {
     margin-left: 40px;
 }
